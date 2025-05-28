@@ -1,0 +1,89 @@
+body {
+  background-color: #f7f7f7;
+  font-family: Arial, sans-serif;
+  color: #333;
+  padding: 2rem;
+  line-height: 1.6;
+}
+
+h1 {
+  color: #111;
+  font-size: 3rem;
+}
+
+p {
+  font-size: 1.2rem;
+}
+nav {
+  background-color: #333;
+  padding: 1rem;
+  border-radius: 10px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+  color: #ffd700;
+}
+section {
+  margin-top: 4rem;
+  padding: 2rem;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+.language-switcher {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin: 1rem 0;
+}
+
+.language-switcher button {
+  padding: 0.5rem 1rem;
+  border: none;
+  background-color: #833131;
+  color: white;
+  cursor: pointer;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: background 0.3s ease;
+}
+
+.language-switcher button:hover {
+  background-color: #666;
+}.social-links {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  margin-top: 1rem;
+}
+
+.social-links a {
+  text-decoration: none;
+  font-weight: bold;
+  color: #444;
+  border: 2px solid #444;
+  padding: 0.5rem 1rem;
+  border-radius: 6px;
+  transition: all 0.3s;
+}
+
+.social-links a:hover {
+  background-color: #444;
+  color: white;
+}
